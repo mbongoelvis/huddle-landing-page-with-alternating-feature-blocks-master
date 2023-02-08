@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Poppins;
+}
+.container{
+    position: relative;
+}
+header{
+    background-image: url("images/bg-hero-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px
+}
+.logo img{
+    width:120px;
+    height:25px;
+}
+nav{
+    display:flex;
+    padding:40px;
+    justify-content: space-between;
+}
+nav button{
+    border: none;
+    width: 130px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 0px .2px 1px #dcdada;
+    font-family: poppins;
+}
+.section-word{
+    display: flex;
+    flex-direction: column;
+}
+.section-word h1{
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+.section-word p{
+    min-width: 200px;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+    font-family: Open Sans;
+    color:  hsl(208, 11%, 55%);
+}
+.section-word button{
+    border: none;
+    width: 250px;
+    height: 45px;
+    margin: 10px auto;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+}
+.section1 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.section2{
+  box-shadow: 1px 3px 2px 2px rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 700px;
+  width: 300px;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 40px;
+}
+.section2 img{
+    height: 250px;
+    width: 300px;
+}
+.section2 .title{
+    margin-bottom: 40px;
+}
+.section2 h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.section2 p{
+    text-align: center;
+    font-family: open sans;
+    font-weight: 400;
+    color:  hsl(208, 11%, 55%);
+}
+.section3{
+    box-shadow: 1px 3px 2px 2px rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column;
+  max-height: 700px;
+  width: 300px;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 40px;
+}
+.section3 img{
+    height: 250px;
+    width: 300px;
+}
+.section3 p{
+    text-align: center;
+    font-family: open sans;
+    font-weight: 400;
+    color:  hsl(208, 11%, 55%);
+}
+.section3 h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.section4{
+    box-shadow: 1px 3px 2px 2px rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 700px;
+  width: 300px;
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+.section4 img{
+    height: 250px;
+    width: 300px;
+}
+.section4 p{
+    text-align: center;
+    font-family: open sans;
+    font-weight: 400;
+    color:  hsl(208, 11%, 55%);
+}
+.section4 h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color:hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 30px 0;
+}
+footer .logo{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width:120px;
+    height:25px;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 10px;
+}
+.location img{
+    width: 14px;
+    height: 18px;
+}
+.location p{
+    width: 300px;
+    font-family: open sans;
+    margin: 0;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 30px 10px;
+}
+.number img{
+    width: 20px;
+    height: 18px;
+}
+.number p{
+    width: 300px;
+    font-family: open sans;
+    margin: 0;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 30px 10px;
+}
+.email img{
+    width: 20px;
+    height: 15px;
+}
+.email p{
+    width: 300px;
+    font-family: open sans;
+    margin: 0;
+}
+.about-FAQ p{
+    color: hsl(193, 100%, 96%);
+    margin: 20px 10px;
+    font-family: open sans;
+}
+.career{
+    margin-top: -20px;
+}
+.career p{
+    color: hsl(193, 100%, 96%);
+    margin: 20px 10px;
+    font-family: open sans;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 170px;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 0px 0px 1px rgb(245, 243, 243);
+}
+section h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+}
+section button{
+    border: none;
+    width: 250px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin: 30px auto;
+    font-size: 10px;
+    font-family: open sans;
+
+}
+@media (width >=700px){
+   .logo{
+    padding: 0px 65px;
+   }
+   .section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 65px;
+   }
+   .section1 img{
+    width: 600px;
+    height: 400px;
+   }
+   .section1 h1{
+    width: 380px;
+    text-align: justify;
+   }
+   .section1 p{
+    max-width: 500px;
+    text-align: justify;
+   }
+   .section1 button{
+    margin-left: 0px;
+   }
+   .section2{
+    display: flex;
+    flex-direction: row;
+    min-width: 1100px;
+    justify-content: space-between;
+   }
+   .section3{
+    display: flex;
+    flex-direction: row;
+    min-width: 1100px;
+    justify-content: space-between;
+   }
+   .section4{
+    display: flex;
+    flex-direction: row;
+    min-width: 1100px;
+    justify-content: space-between;
+    margin-bottom: 160px;
+   }
+   .title{
+    width: 450px;
+   }
+   .title p{
+    text-align: justify;
+    margin-top: -10px;
+   }
+   .title h2{
+    text-align: justify;
+    margin-left: 0px;
+   }
+   .logo-location{
+    width: 100%;
+    padding: 2px 20px
+   }
+    .logo-location p{
+        width: 500px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+
+   footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .location{
+    padding: 0px;
+   }
+   section{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 170px;
+    flex-direction: column;
+    position: absolute;
+    left: 480px;
+    top: 1720px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 0px 0px 1px rgb(245, 243, 243);
+}
+section h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+}
+section button{
+    border: none;
+    width: 250px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+}
+.about-FAQ{
+    margin-top: 120px;
+    margin-left: -60px;
+    width: 300px;
+}
+.career{
+    margin-top: 120px;
+    width: 300px;
+    margin-left: 100px;
+}
+.icons{
+    margin-top:0px;
+}
+span{
+    margin-top: 300px;
+   position: absolute;
+   right: 150px;
+}
+}
